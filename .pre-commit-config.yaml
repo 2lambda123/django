@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 24.10.0
+    rev: 25.1.0
     hooks:
     - id: black
       exclude: \.py-tpl$
@@ -11,7 +11,7 @@ repos:
         additional_dependencies:
         - black==23.9.0
   - repo: https://github.com/PyCQA/isort
-    rev: 5.13.2
+    rev: 6.0.0
     hooks:
       - id: isort
   - repo: https://github.com/PyCQA/flake8
